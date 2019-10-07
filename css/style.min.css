@@ -1,0 +1,23 @@
+.view,body,html{
+	height:100%;
+	background-color: #121212;
+}
+
+#title_femina {
+	font-weight: 500;
+	letter-spacing: 0.06em;
+}
+
+.navbar{
+	background-color:rgba(0,0,0,.2)
+}
+
+.page-footer,.top-nav-collapse{
+	background-color:#1C2331
+}
+
+@media only screen and (max-width:768px){
+	.navbar{
+		background-color:#1C2331
+	}
+}
