@@ -3,9 +3,63 @@
 	background-color: #121212;
 }
 
+body {
+	overflow-x: hidden; 
+}
+
+
 #title_femina {
 	font-weight: 500;
 	letter-spacing: 0.06em;
+}
+
+#title_camp {
+	font-weight: 600;
+	font-size: 5em;
+	color: #E16B2E;
+}
+
+#title_frutigen {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+#title_date {
+	color: #E16B2E;
+	font-size: 3em;
+	font-weight: 500;
+}
+
+#title_icon {
+	font-size: 3em;
+}
+
+#pipe_1 {
+	width: 8em; 
+	height: auto;
+	float: left;
+	transform: translate(-200px);
+}
+
+#wave_1 {
+	width: 8em; 
+	height: auto;
+	float: left;
+	transform: translate(-20px);
+}
+
+#ball_1 {
+	width: 6em; 
+	height: auto;
+	float: right;
+	transform: translate(20px, 280px);
+}
+
+#stopwatch_1 {
+	width: 9em; 
+	height: auto;
+	float: right;
+	transform: translate(200px, -280px);
 }
 
 .navbar{
@@ -13,11 +67,11 @@
 }
 
 .page-footer,.top-nav-collapse{
-	background-color:#1C2331
+	background-color:#262120
 }
 
 @media only screen and (max-width:768px){
 	.navbar{
-		background-color:#1C2331
+		background-color:#262120
 	}
 }
