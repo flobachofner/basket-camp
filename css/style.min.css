@@ -74,6 +74,19 @@ body {
 	.navbar{
 		background-color:#262120
 	}
+	.graphic {
+		display: none !important;
+	}
 }
 
-@media only screen ()
+@media screen and (max-width: 504px) {
+	#frontbox {
+		padding-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 482px) {
+	#frontbox {
+		padding-top: 120px;
+	}
+}
