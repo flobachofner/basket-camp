@@ -74,22 +74,24 @@ body {
 	#title_femina {
 		font-weight: 500;
 		letter-spacing: 0.06em;
+		font-size: 0.7em
 	}
 	
 	#title_camp {
-		font-weight: 600;
-		font-size: 3em;
+		font-weight: 400;
+		font-size: 0.7em;
+		line-height: 1.1em;
 		color: #E16B2E;
 	}
 	
 	#title_frutigen {
 		font-weight: 400;
-		font-size: 1.5em;
+		font-size: 0.7em;
 	}
 	
 	#title_date {
 		color: #E16B2E;
-		font-size: 1.5em;
+		font-size: 0.9em;
 		font-weight: 500;
 	}
 }
