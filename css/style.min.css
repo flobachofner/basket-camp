@@ -71,16 +71,60 @@ body {
 }
 
 @media (max-width: 482px) {
-	#frontbox {
-		padding-top: 120px !important;
+	#title_femina {
+		font-weight: 500;
+		letter-spacing: 0.06em;
+	}
+	
+	#title_camp {
+		font-weight: 600;
+		font-size: 3em;
+		color: #E16B2E;
+	}
+	
+	#title_frutigen {
+		font-weight: 400;
+		font-size: 1.5em;
+	}
+	
+	#title_date {
+		color: #E16B2E;
+		font-size: 1.5em;
+		font-weight: 500;
 	}
 }
 
-/* Extra small devices (portrait phones, less than 576px)*/
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) { 
-	#frontbox {
+	/*#frontbox {
 		padding-top: 50px;
+	}*/
+	#title_femina {
+		font-weight: 500;
+		letter-spacing: 0.06em;
 	}
+	
+	#title_camp {
+		font-weight: 600;
+		font-size: 4em;
+		color: #E16B2E;
+	}
+	
+	#title_frutigen {
+		font-weight: 400;
+		font-size: 1.8em;
+	}
+	
+	#title_date {
+		color: #E16B2E;
+		font-size: 2.5em;
+		font-weight: 500;
+	}
+	#title_button {
+		display: none;
+	}
+
+	
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -90,6 +134,9 @@ body {
 	}
 	.graphic {
 		display: none !important;
+	}
+	#title_icon {
+		display: none;
 	}
 }
 
